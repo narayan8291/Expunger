@@ -1,0 +1,9 @@
+baseURL = "https://slack.com/api/files.list"
+deleteURL = "https://slack.com/api/files.delete"
+argumentDict = {}
+argumentDict['slackToken'] = "token"
+argumentDict['channelID'] = "channel"
+argumentDict['fileCount'] = "count"
+argumentDict['days'] = "ts_to"
+argumentDict['fileTypes'] = "types"
+argumentDict['userId'] = "user"
